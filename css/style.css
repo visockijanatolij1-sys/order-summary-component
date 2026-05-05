@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.card{
+    max-width: 760px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 10px 10px 15px #333;
+    border-radius: 12px;
+    
+}
+.card-content{
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.card__image{
+    width: 100%;
+}
+.card__image img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0 ;
+}
+.card__title{
+    font-size: 32px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.card__text{
+    font-weight: 500;
+    max-width: 450px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.card-block{
+    width: 100%;
+    background-color: hsla(225, 100%, 94%, 0.418);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-radius: 12px;
+}
+.block-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.block-left_plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.block-left__text{
+    font-weight: 900;
+}
+.block-left__price{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+.block__link{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+.block__link:hover{
+    color: hsla(245, 75%, 52%, 0.507);
+    transition: all 0.3s ease 0s;
+}
+.buttons{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.button-proceed{
+    width: 100%;
+    padding: 15px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 13px 17px 0px #33333363;
+    cursor: pointer;
+    font-weight: 600;
+}
+.button-proceed:hover{
+    background-color: hsla(245, 75%, 52%, 0.507);
+    transition: all 0.3s ease 0s;
+}
+.button-cancel{
+    text-decoration: none;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+.button-cancel:hover{
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
