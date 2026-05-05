@@ -128,3 +128,26 @@ body{
     color: #000;
     transition: all 0.3s ease 0s;
 }
+
+@media (max-width: 475px) {
+    .card{
+        max-width: 320px;
+        margin: 20px 0;
+    }
+    .card-content{
+        gap: 10px;
+        padding: 15px;
+    }
+    .card__title{
+        font-size: 18px;
+    }
+    .card__text{
+        font-size: 14px;
+    }
+    .card-block{
+        padding: 10px;
+    }
+    .block-left{
+        gap: 10px;
+    }
+}
